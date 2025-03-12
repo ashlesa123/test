@@ -8,6 +8,13 @@ public class TestApplication {
 
 	public static void main(String[] args) {
 
+		 private PostService postService;
+
+    public PostController(PostService postService) {
+        this.postService = postService;
+    }
+
+
 		@PostMapping
     public ResponseEntity<Post> savePost(
             @RequestBody Post post
