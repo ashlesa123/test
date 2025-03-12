@@ -8,6 +8,11 @@ public class TestApplication {
 
 	public static void main(String[] args) {
 
+
+int=15;
+char='A';
+boolean isSub=true;
+
 		@PostMapping
     public ResponseEntity<Post> savePost(
             @RequestBody Post post
